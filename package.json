@@ -1,0 +1,24 @@
+{
+  "name": "reposit-cli",
+  "version": "1.0.0",
+  "description": "Tool for executing property and tenant calculations",
+  "bin": {
+    "rep": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "csv-parser": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^18.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
