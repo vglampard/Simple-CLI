@@ -1,10 +1,3 @@
-// 2. Calculate the monthly rent, per tenant for a given property. Please code a solution that satisfies the following acceptance criteria:
-//     - KIND OF - accepts an id. Accepts a property.
-// - The total property monthly rent is split equally between the tenants.
-// - The monthly rent, per tenant can be requested in pence or pounds.
-// - If there are no tenants, an error should be thrown.
-// - Returns the average monthly rent, per tenant as a number.
-
 import { Property } from '../types/property.interface';
 import { loadData } from './loadData';
 import path from 'node:path';
