@@ -1,6 +1,6 @@
-# 🏠 REPOSIT CLI 👥
+# 🏠 SIMPLE CLI 👥
 
-A CLI tool for working with property and tenant data.
+A CLI tool for working with dummy property and tenant data taken from CSV. 
 
 ```
 npm i 
